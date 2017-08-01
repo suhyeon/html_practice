@@ -1,0 +1,407 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  color: gray;
+  width: 1550px;
+}
+@media screen and (max-width: 800px) {
+
+}
+@media screen and (max-width: 480px){
+
+}
+.wrap {
+  position: relative;
+}
+a, li {color: inherit;text-decoration: none;}
+h1, h2 , h3 {
+  color: black;
+}
+.head {
+  position: fixed;
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  z-index: 1000;
+}
+.logonav {
+  position: absolute;
+  top: 50px; left: 100px;
+  width: 40%;
+  height: 100%;
+}
+
+.logo { 
+  position: absolute;
+  top: 5px;
+}
+.login {
+  width: 50%;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  height: 100%;
+}
+.logbutton {
+  position: absolute;
+  top: 0;
+  right: 270px;
+}
+.signbutton {
+  position: absolute;
+  right: 50px;
+}
+.nav {
+  position: absolute;
+  left: 30px;
+  font-size: 20px;
+}
+.nav > li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 10px;
+}
+.wireframekit {
+  position: absolute;
+  top: 150px;
+  height: 600px;
+  width: 100%;
+  display: inline;
+}
+.phonetext {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.wireframep {
+  position: absolute;
+  left: 15%;
+  top: 50px;
+  width: 100%;
+  font-size: 50px;
+}
+.phonetext > p{
+  position: absolute;
+  top: 150px;
+  left: 15%;
+  width: 70%;
+  color: grey;
+}
+.textbtn {
+  position: relative;
+  width: 50%;
+  left: 15%;
+  display: inline-block;
+}
+textarea {
+  width: 80%;
+  border: none;
+  padding: 10px 0;
+  border-bottom: solid 1px #1abc9c;
+  -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+  background-position: -200px 0;
+  background-size: 200px 100%;
+  background-repeat: no-repeat;
+  color: #0e6252;
+}
+.textbtn > textarea, button {
+  display: inline;
+  position: absolute;
+  top: 250px;
+}
+.textbtn > button {
+  right: 0%;
+  margin: 0 auto;
+	padding: 0;
+	width: 20%;
+  height: 50px;
+	border: 2px solid #1ECD97;
+	border-radius: 40px;
+	background: transparent;
+	color: #1ECD97;
+	letter-spacing: 1px;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	-webkit-transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s;
+	transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s;
+}
+button:hover {
+	background-color: #1ECD97;
+	color: #fff;
+}
+input::-webkit-input-placeholder {
+ font-family: 'roboto', sans-serif;
+ -webkit-transition: all 0.3s ease-in-out;
+ transition: all 0.3s ease-in-out;
+}
+input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
+ color: #1abc9c;
+ font-size: 11px;
+ -webkit-transform: translateY(-20px);
+ transform: translateY(-20px);
+ visibility: visible !important;
+}
+.phone {
+  background-image: url('iphone-mockup.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 40%;
+  float: right;
+}
+hr {
+  width: 100%;
+  height: 1px;
+  background-color: lightgrey;
+}
+.feature > hr {
+  margin-top: 30px;
+}
+.feature {
+  position: absolute;
+  top: 750px;
+  width: 100%;
+  height: 500px;
+}
+.featurehead {
+  margin-top: 20px;
+  width: 100%;
+  height: 40%;
+}
+.fhead{
+  font-size: 50px;
+  text-align: center;
+}
+.featurehead > p {
+  position: absolute;
+  left: 30%;
+  width: 40%;
+  height: 60%;
+  color: grey;
+  text-align: center;
+}
+.feature123 {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  display: inline-block; 
+  text-align: center;
+}
+.feature1 {
+  width: 30%;
+  height: 100%;
+  float: left;
+  margin: 10px;
+}
+.feature2 {
+  width: 30%;
+  height: 100%;
+  float: left;
+  margin: 10px;
+}
+.feature3 {
+  width: 30%;
+  height: 100%;
+  float: left;
+  margin-right: 0;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.first ,.second,.third{
+  position: relative;
+  background-image: url('Icon.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30%;
+  height: 30%;
+  left: 40%;
+  margin-bottom: 10px;
+}
+.one, .two, .three {
+  line-height: 60px;
+}
+.tabletkit {
+  position: absolute;
+  top: 1250px;
+  width: 100%;
+  height: 800px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.tablethead {
+  font-size: 40px;
+  text-align: center;
+  line-height: 25px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.tablet {
+  position: absolute;
+  background-image: url('ipad.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 80%;
+  width: 50%;
+  top: 100px;
+  left: 25%;
+}
+.tryitnow {
+  position: absolute;
+  top: 2050px;
+  width: 100%;
+  height: 600px;
+  text-align: center;
+}
+.tryitnow-head {
+  width: 100%;
+  height: 60%;
+}
+.tryitnow-h1 {
+  position: absolute;
+  top: 200px;
+  left: 45%;
+}
+.tryitnow-head > p {
+  position: absolute;
+  top: 280px;
+  left: 30%;
+  width: 40%;
+  text-align: center;
+}
+.tryitnow-button {
+  display: inline-block;
+}
+.tryitnow-bt {
+  float: left;
+}
+.tryitnow-bt2 {
+  margin-left: 10px;
+  float: right;
+}
+.ourclient {
+  position: relative;
+  top: 2700px;
+  width: 100%;
+  height: 700px;
+}
+.ourclienthead{
+  position: relative;
+  width: 100%;
+  height: 30%;
+  top: 50px;
+}
+.ourclienthead > h1 {
+  position: absolute;
+  top: 20px;
+  left: 30%;
+  width: 40%;
+  height: 50%;
+  text-align: center;
+  font-size: 50px;
+}
+.ourclienthead > p {
+  position: absolute;
+  top: 100px;
+  left: 30%;
+  width: 40%;
+  height: 50%;
+  text-align: center;
+}
+.client123 {
+  position: relative;
+  width: 100%;
+  height: 70%;
+  display: inline-block; 
+  text-align: center;
+  top: 150px;
+}
+.client1 {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  float: left;
+  margin: 10px;
+}
+.client2 {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  float: left;
+  margin: 10px;
+}
+.client3 {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  float: left;
+  margin: 10px;
+}
+.icon1, .icon2, .icon3 {
+  position: absolute;
+  background-image: url('user-icon.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20%;
+  height: 20%;
+  top: 0;
+  left: 50%;
+  margin-bottom: 10px;
+}
+.clientp1, .clientp2, .clientp3 {
+  position: absolute;
+  top: 40%;
+}
+.clienth1 ,.clienth2, .clienth3{
+  width: 40%;
+  height: 50%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+.footer {
+  position: absolute;
+  top: 3400px;
+  background-image: url('Top-Background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  line-height: 100%;
+  display: inline-block;
+}
+.foot1 {
+  width: 30%;
+  height: 50%;
+  float: left;
+  text-align: center;
+  margin-top: 90px;
+}
+.foot2 {
+  width: 40%;
+  height: 50%;
+  float: left;
+}
+.footer-li > li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 10px;
+  margin-top: 90px;
+}
+.foot3 {
+  position: relative;
+  width: 30%;
+  height: 50%;
+  float: left;
+}
+.linkicon {
+  position: absolute;
+  top: 90px;
+  left: 25%;
+}

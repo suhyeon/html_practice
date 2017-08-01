@@ -1,0 +1,23 @@
+
+/* html ,body {
+  height: 100%;
+}*/
+.container {
+  position: relative;
+  width: 50%;
+  height: 400px;
+  background-color: lavender;
+}
+.box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  background-color: lightcoral;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+}
