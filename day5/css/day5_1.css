@@ -1,0 +1,136 @@
+html{
+  box-sizing: border-box;
+}
+*,*:after, *:before{
+  box-sizing: inherit;
+}
+body {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ebe9f9+0,d8d0ef+50,cec7ec+62,c1bfea+100 */
+background: rgb(235,233,249); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(235,233,249,1) 0%, rgba(216,208,239,1) 50%, rgba(206,199,236,1) 62%, rgba(193,191,234,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(235,233,249,1) 0%,rgba(216,208,239,1) 50%,rgba(206,199,236,1) 62%,rgba(193,191,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(235,233,249,1) 0%,rgba(216,208,239,1) 50%,rgba(206,199,236,1) 62%,rgba(193,191,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe9f9', endColorstr='#c1bfea',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+margin: 0;
+
+}
+
+.a {
+  width: 100%;
+  height: 1000px;
+}
+
+.wrap{
+  width: 100%;
+  height: 8%;
+  color: white;
+  margin: 0.16%;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.c1 {
+  background-color: pink;
+  float: left;
+  height: 100%;
+  text-align: center;
+  font-size: 15px;
+  width: 8%;
+  margin: 0.16%;
+}
+.c2{
+  background-color:  lightpink;
+  float: left;
+  height: 100%;
+  text-align: center;
+  font-size: 15px;
+  width: 16.32%;
+  margin: 0.16%;
+}
+.c3 {
+  float: left;
+  height: 100%;
+  text-align: center;
+  font-size: 15px;
+  width: 24.63%;
+  height: 100%;
+  margin: 0.16%;
+  background-color: plum;
+}
+.c4 {
+  float: left;
+  height: 100%;
+  width: 32.95%;
+  text-align: center;
+  font-size: 15px;
+  margin: 0.16%;
+  background-color: lavenderblush;
+}
+.c5 {
+  float: left;
+  height: 100%;
+  width: 41.25%;
+  background-color: mistyrose;
+  text-align: center;
+  margin: 0.16%;
+}
+.c6 {
+  float: left;
+  height: 100%;
+  width: 49.6%;
+  background-color: rgba(235,233,249,1);
+  text-align: center;
+  margin: 0.16%;
+}
+.c7 {
+  float: left;
+  height: 100%;
+  background-color: palevioletred;
+  text-align: center;
+  margin: 0.16%;
+  width: 57.95%;
+}
+.c8{
+  float: left;
+  height: 100%;
+  background-color: lightcoral;
+  text-align: center;
+  margin: 0.16%;
+  width: 66.3%;
+}
+.c9{
+  float: left;
+  height: 100%;
+  background-color: linen;
+  text-align: center;
+  margin: 0.16%;
+  width: 74.6%;
+}
+.c10{
+  float: left;
+  height: 100%;
+  background-color: thistle;
+  text-align: center;
+  margin: 0.16%;
+  width: 82.95%;
+}
+.c11{
+  float: left;
+  height: 100%;
+  background-color: gainsboro;
+  margin: 0.16%;
+  text-align: center;
+  width: 91.25%;
+}
+.c12 {
+  float: left;
+  height: 100%;
+  background-color: purple;
+  margin: 0.16%;
+  text-align: center;
+  width: 99.55%;
+}
