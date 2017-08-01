@@ -1,0 +1,53 @@
+* {
+
+}
+body {
+  border-color: silver;
+  box-sizing: border-box;
+}
+.container {
+  background-color: lightblue;
+  width: 900px;
+  height: 500px;
+  text-align: center;
+  margin: auto;
+}
+.effect {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+.effect-main{
+  width: 100%;
+  height: 100%;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+.effect-main:hover{
+  transform: translateY(-50%);
+  animation-duration: 5s;
+}
+.image {
+  background-image: url('\London.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.image-title {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+.title {
+  position: absolute;
+  top: 300px;
+}
+p {
+  position: absolute;
+  top: 350px;
+}
+@keyframes move{
+
+}
