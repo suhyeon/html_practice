@@ -1,0 +1,15 @@
+.text-center { 
+  text-align: center;
+}
+.text-large {
+  font-size: 200%;
+}
+.text-red {
+  color: red;
+}
+.text-blue {
+  color: blue;
+}
+/* **class 어트리뷰트 값은 공백으로 구분해 여러개 지정할 수 있다. 클랙스 셀렉터를 사용해
+	  미리 스타일을 정의해두고, HTML요소는 이미 정의 되어 있는 클래스를 지정해 필요한
+	  스타일을 지정할 수 있다. 재사용의 측면에서 유용** */

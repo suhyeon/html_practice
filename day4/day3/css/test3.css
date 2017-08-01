@@ -1,0 +1,4 @@
+.container { color: red;} /*class 어트리뷰트 값이 container 인 모든 요소를 선택*/
+/* color 어트리뷰트는 자식요소에 상속된다.*/
+#p2 {color: initial;}
+.container1 { background-color: pink;}
