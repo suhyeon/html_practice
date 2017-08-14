@@ -1,0 +1,181 @@
+*{
+margin: 0;
+}
+body {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+  width: 1920px;
+}
+li {
+  display: inline-block;
+  padding-right: 1%;
+}
+.title-image {
+  width: 100%;
+  height: 980px;
+  background-image: url('main.png');
+  background-size: contain;
+}
+.title-text {
+  width: 1720px;
+  height: 880px;
+  margin: auto;
+  color: white;
+}
+.t-header {
+  width: 100%;
+  height: 10%;
+}
+.logoframe{
+  width:100px;
+}
+.logoframe,.mainframe{
+  float: left;
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+.mainframe{
+  width: 50%;
+  display: inline;
+  float: left;
+}
+.menuframe{
+  width: 50%;
+  height: 100%;
+  display: inline;
+  float: right;
+}
+.logo{
+  position: absolute;
+  top: 4%;
+}
+.main {
+  float: left;
+  padding-top: 3%;
+}
+.menu {
+  list-style: none;
+  padding-left: 60%;
+  font-size: 20px;
+}
+.t-main {
+  width: 100%;
+  height: 70%;
+}
+.main-t {
+  font-size: 90px;
+}
+.t-footer {
+  width: 100%;
+  height: 20%;
+}
+.Home, .whoamI, .brand{
+  width: 33.33333333%;
+  display: inline-block;
+  float: left;
+}
+.main-grid{
+  width: 100%;
+}
+.head-grid{
+  height: 86px;
+  background-color: white;
+  color: #333;
+}
+.image-grid{
+  height: 1440px;
+}
+div[class^="grid"]{
+  width: 50%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  height: 33.33333333%;
+}
+.g-logo{
+  width: 8.33333333%;
+}
+.g-logo , .g-home {
+  display: inline-block;
+  float: left;
+}
+.center {
+  transform: translateY(50%);
+}
+div[id^="g"]{
+  width: 50%;
+  height: 0%;
+  padding-bottom: 50%;
+  display: inline-block;
+  float: left;
+}
+#g1 {
+  background-image: url('Image-01.png');
+}
+#g2 {
+  background-image: url('Image-02.png');
+}
+#g3 {
+  background-image: url('Image-03.png');
+}
+#g4 {
+  background-image: url('Image-04.png');
+}
+#g5 {
+  background-image: url('Image-05.png');
+}
+#g6 {
+  background-image: url('Image-06.png');
+}
+#g7 {
+  background-image: url('Image-07.png');
+}
+#g8 {
+  background-image: url('Image-08.png');
+}
+#g9 {
+  background-image: url('Image-09.png');
+}
+#g10 {
+  background-image: url('Image-10.png');
+}
+#g11 {
+  background-image: url('Image-11.png');
+}
+#g12 {
+  background-image: url('Image-12.png');
+}
+.footer {
+  background-color: #333;
+  height: 812px;
+  width:100%; 
+  color: white;
+}
+.footer-logo{
+  width: 160px;
+  position: relative;
+  float: left;
+}
+.footer-main{
+  width: 1600px;
+  float: left;
+  position: relative;
+}
+hr {
+    height: 2px;
+    color: skyblue;
+    background-color: skyblue;
+    border: none;
+}
+.fsize {
+  font-size: 21px;
+} 
+.news {
+  
+}
+.news-text {
+  font-size: 50px;
+}
